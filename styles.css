@@ -1,0 +1,97 @@
+html{
+	background-color: #fff0d3;
+	color: #ef908e;
+	font-family: Arial;
+}
+
+h1{
+	size: 200%;
+	text-align: center;
+	margin:auto;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	width: 50%;
+	position: relative;
+	
+}
+
+.cards{
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.icon, .card-text{
+	
+	transition: .5s;
+	border-radius: 11px;
+	position: relative;
+	height: 14em;
+	width: 10em;
+	text-align: center;
+	
+	
+	
+}
+
+.card-text{
+	
+	text-align: center;
+	width: 10em;
+	height: 14em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.icon{
+	background-color: #ffd2d4;
+	box-shadow:
+		16.7px 12.5px 1.2px rgba(0, 0, 0, 0.018),
+		31.3px 23.4px 5.3px rgba(0, 0, 0, 0.027),
+		43.4px 32.4px 13.2px rgba(0, 0, 0, 0.034),
+		52.5px 39.2px 26.9px rgba(0, 0, 0, 0.04),
+		58.5px 43.7px 49.4px rgba(0, 0, 0, 0.047),
+		62.4px 46.6px 83.3px rgba(0, 0, 0, 0.055),
+		67px 50px 122px rgba(0, 0, 0, 0.07);
+	
+}
+
+.card-text:hover .icon, .icon:hover .card-text, .card-text:hover{
+	width: 14em;
+	height: 10em;
+}
+
+
+p{
+	transform: translate(0, 17em);
+}
+
+a{
+	color: black;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+
+
+
+
+
+
+
+
+
+
+/*
+	Credit:
+		https://www.youtube.com/watch?v=dOJMHYSvJGs
+		https://shadows.brumm.af/
+*/
